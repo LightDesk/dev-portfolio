@@ -12,7 +12,7 @@ function Layout() {
     return(
         <div>
             <Header />
-            <div className="bg-purple-700 md:m-6 rounded ">
+            <div className="bg-purple-700 rounded ">
                 <h1 className="text-white p-6 text-center text-3xl text-center" >Here are some Skills i know</h1>
                 <div className="lg:grid lg:grid-cols-3" >
                     {card}
